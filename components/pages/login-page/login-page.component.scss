@@ -1,0 +1,30 @@
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+margin-top: 3rem;
+}
+
+.details{
+  width: 28rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+    
+.error-list{
+  color: rgb(204, 150, 41);
+}
+
+.register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+text{
+  color: rgb(45, 28, 7);
+}
