@@ -1,0 +1,29 @@
+.card-group {
+  
+    height: 100%;
+     margin-bottom: 1%;
+}
+
+.card {
+    flex: 1;
+    margin-right: 10px;
+    border: 1px solid burlywood;
+    padding: 2%;
+
+}
+
+img {
+    width: 20%;
+    height: 30%;
+    border-radius: 50%;
+    margin-left: 40%;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+h2{
+  color: rgb(235, 177, 96);
+}
