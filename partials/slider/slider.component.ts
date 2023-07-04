@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./slider.component.scss']
 })
 export class SliderComponent {
-}
 
+}
