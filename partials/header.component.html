@@ -1,0 +1,37 @@
+<header>
+    <div class="container">
+      <img src="../../../../assets/GDG_CAFÉ-removebg-preview.png" alt="">
+        <a routerLink="/" class="logo"><b><i>GDG CAFÉ</i></b></a>
+        <nav>
+            <ul>
+                <li>
+                    <a routerLink="/menu">
+                        Menu
+                    </a>
+                </li>
+                <li *ngIf="!isAuth">
+                    <a routerLink="/login"> Login</a>
+                </li>
+                <li *ngIf="isAuth" class="menu-container">
+                    <a routerLink="/dashboard">{{user.name}}</a>
+                    <div class="menu">
+                        <a routerLink="/profile">Profile</a>
+                        <a routerLink="/orders">Orders</a>
+                        <a (click)="logout()">LogOut</a>
+                        
+                    </div>
+                </li>
+                <li>
+                    <a routerLink="/cart-page">
+                        Cart <span *ngIf="cartQuantity">{{cartQuantity}}</span>
+                    </a>
+                </li>
+                <li>
+                    <a routerLink="/about">
+                        About Us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+  </header>
