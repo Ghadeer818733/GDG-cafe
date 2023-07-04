@@ -9,12 +9,14 @@ import { CheckoutPageComponent } from './components/pages/checkout-page/checkout
 import { AuthGuard } from './auth/guards/auth.guard';
 import { PaymentPageComponent } from './components/pages/payment-page/payment-page.component';
 import { OrderTrackPageComponent } from './components/pages/order-track-page/order-track-page.component';
+import { MenuComponent } from './components/pages/menu/menu.component';
 // import { authGuard } from './auth/guards/auth.guard';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
-  {path:'search/:searchTerm',component:HomeComponent},
-  {path: 'tag/:tag', component: HomeComponent },
+  {path:'menu',component:MenuComponent},
+  {path:'search/:searchTerm',component:MenuComponent},
+  {path: 'tag/:tag', component: MenuComponent },
   {path:'food/:id',component:FoodPageComponent},
 
   {path:'cart-page',component:CartPageComponent},
