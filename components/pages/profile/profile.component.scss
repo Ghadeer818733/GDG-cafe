@@ -1,5 +1,4 @@
-/* Import Font Dancing Script */
-@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script); 
 
 * {
     margin: 0;
@@ -61,7 +60,10 @@ body {
 .sidenav {
     background-color: #fff;
     color: #333;
-    border-bottom-right-radius: 25px;
+    // border-bottom-right-radius: 25px;
+    border: 1px solid rgb(255, 170, 0);
+    border-radius: 20px;
+    margin-top: 1%;
     height: 27%;
     left: 0;
     overflow-x: hidden;
@@ -69,12 +71,14 @@ body {
     position: absolute;
     // top: 70px;
     width: 250px;
+margin-left: 4%;
 }
 
 .profile {
     margin-bottom: 20px;
     margin-top: -12px;
     text-align: center;
+  
 }
 
 .profile img {
@@ -196,5 +200,3 @@ body {
 .fa-snapchat:hover {
     color: #fffb01 !important;
 }
-
-/* End */
