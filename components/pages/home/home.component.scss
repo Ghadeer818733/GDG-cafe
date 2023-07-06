@@ -14,11 +14,16 @@
  
 }
 img{
-  width: 80%;
-  height: 60%;
+  width: 70%;
+  height: 65%;
   border: 50%;
   margin-left: 10%;
 }
+
+img:hover{
+  cursor: pointer;
+}
+
 h1{
   color:  rgb(235, 177, 96);
   
