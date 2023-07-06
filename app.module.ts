@@ -31,6 +31,7 @@ import { PaymentPageComponent } from './components/pages/payment-page/payment-pa
 import { PaypalButtonComponent } from './components/partials/paypal-button/paypal-button.component';
 import { OrderTrackPageComponent } from './components/pages/order-track-page/order-track-page.component';
 import { SliderComponent } from './components/partials/slider/slider.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './components/partials/footer/footer.component';
 @NgModule({
   declarations: [
@@ -67,6 +68,7 @@ import { FooterComponent } from './components/partials/footer/footer.component';
     NgxStarsModule,
     HttpClientModule,
     ReactiveFormsModule,
+    FontAwesomeModule,
     ToastrModule.forRoot({
       timeOut:3000,
       positionClass:'toast-bottom-right',
