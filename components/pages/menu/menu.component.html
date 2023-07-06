@@ -1,11 +1,13 @@
 <app-tags></app-tags>
 <app-search></app-search>
 
-<app-not-found [visible]="!foods || !foods.length"
+<div class="food-not-found">
+  <app-not-found [visible]="!foods || !foods.length"
 resetLinkText="Reset Search"
-    src="../../../../assets/food-404-not-found.jpg"
-    >
+src="../../../../assets/food-404-not-found.jpg"
+>
 </app-not-found>
+</div>
 <ul>
     <li *ngFor="let food of foods">
       <a routerLink="/food/{{food.id}}">
