@@ -2,7 +2,9 @@
 <app-search></app-search>
 
 <app-not-found [visible]="!foods || !foods.length"
-resetLinkText="Reset Search">
+resetLinkText="Reset Search"
+    src="../../../../assets/food-404-not-found.jpg"
+    >
 </app-not-found>
 <ul>
     <li *ngFor="let food of foods">
